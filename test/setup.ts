@@ -1,0 +1,9 @@
+process.env.NODE_ENV = 'test';
+process.env.LOG_LEVEL = 'silent';
+process.env.DATABASE_URL = 'postgres://payroll:payroll@localhost:5432/payroll_test';
+process.env.REDIS_URL = 'redis://localhost:6379';
+process.env.JWT_SECRET = 'test-secret-test-secret-test-secret-123456';
+process.env.MONNIFY_BASE_URL = 'https://sandbox.monnify.com';
+process.env.MONNIFY_API_KEY = 'test-key';
+process.env.MONNIFY_SECRET_KEY = 'test-secret-key';
+process.env.MONNIFY_WALLET_ACCOUNT_NUMBER = '0000000000';
